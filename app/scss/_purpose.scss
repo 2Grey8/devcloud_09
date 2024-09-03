@@ -1,0 +1,126 @@
+.purpose{
+  width: 192rem;
+
+  &__inner{
+    width: 150rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 18rem;
+    padding-top: 20rem;
+
+    @include respond(phone){
+      width: 60rem;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(port){
+      width: 90rem;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__imgBox{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 588px;
+    background: #000000;
+
+    @include respond(phone){
+
+    }
+
+    @include respond(port){
+
+    }
+
+    @include respond(land){
+
+    }
+  }
+
+  &__img{
+    display: block;
+
+    &_1{
+      width: 350.27px;
+      height: 645.57px;
+    }
+
+    &_2{
+      width: 263px;
+      height: 527px;
+    }
+
+    &_3{
+      width: 271px;
+      height: 527px;
+    }
+  }
+
+  &__box{
+    display: block;
+    width: 52rem;
+    text-align: left;
+
+  }
+
+  &__title{
+    display: block;
+    margin-bottom: 7rem;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.045em;
+    color: #000000;
+  }
+
+  &__text{
+    display: block;
+    margin-bottom: 7rem;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  &__btn{
+    display: block;
+    width: 267.5px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    background: #000000;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    text-decoration: none;
+    text-align: center;
+
+    font-family: Open "Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+  }
+}

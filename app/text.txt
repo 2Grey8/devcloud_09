@@ -1,0 +1,3 @@
+font-family: Open "Sans";
+font-style: normal;
+font-weight: 300, 600, normal, bold;
